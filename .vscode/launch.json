@@ -1,10 +1,11 @@
 {
     "configurations": [
+        
         {
             "type": "java",
             "name": "App",
             "request": "launch",
-            "mainClass": "App",
+            "mainClass": "application.App",
             "vmArgs": "--module-path \"C:\\java-libs\\javafx-sdk\\lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]
