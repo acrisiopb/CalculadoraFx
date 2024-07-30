@@ -1,0 +1,4 @@
+1- abra o cmd na pasta base onde está aplicação o jar
+e execute esse comando especificando o caminho das libs do FX e altere o nome do app.
+
+java --module-path "C:\java-libs\javafx-sdk\lib" --add-modules javafx.controls,javafx.fxml -jar Workshop-JavaFX-JDBC.jar
