@@ -23,6 +23,7 @@ public class App extends Application {
             stage.setTitle("Calculadora");
             stage.setWidth(323);
             stage.setHeight(387);
+            scene.getStylesheets().add(getClass().getResource("/com/javafxx/gui/css/style.css").toExternalForm());
             stage.getIcons().add(new Image(getClass().getResourceAsStream("calculator.png")));
             stage.show();
             stage.setResizable(false);

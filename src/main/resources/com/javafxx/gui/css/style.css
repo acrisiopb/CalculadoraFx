@@ -1,0 +1,21 @@
+.btncolor{
+    -fx-background-color: #928686;
+    -fx-text-fill: white;
+}
+
+.btncolor:hover{
+    -fx-background-color: #534c4c;
+    -fx-text-fill: white;
+    -fx-cursor:hand;
+}
+
+.btncolor1{
+    -fx-background-color: #ffffff;
+    
+}
+
+.btncolor1:hover{
+    -fx-background-color: #b0b0a3;
+    -fx-text-fill: white;
+    -fx-cursor:hand;
+}

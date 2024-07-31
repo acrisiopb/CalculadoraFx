@@ -13,26 +13,26 @@
             <Font size="24.0" />
          </font>
       </TextField>
-      <Button fx:id="DELETA" layoutX="21.0" layoutY="75.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="125.0" style="-fx-background-color: #928686;" text="C" textFill="WHITE" />
-      <Button fx:id="A7" layoutX="21.0" layoutY="124.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" style="-fx-background-color: ffffff;" text="7" />
-      <Button fx:id="A4" layoutX="21.0" layoutY="172.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" style="-fx-background-color: ffffff;" text="4" />
-      <Button fx:id="A1" layoutX="21.0" layoutY="222.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" style="-fx-background-color: ffffff;" text="1" />
-      <Button fx:id="A8" layoutX="91.0" layoutY="124.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" style="-fx-background-color: ffffff;" text="8" />
-      <Button fx:id="A5" layoutX="91.0" layoutY="172.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" style="-fx-background-color: ffffff;" text="5" />
-      <Button fx:id="A2" layoutX="91.0" layoutY="222.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" style="-fx-background-color: ffffff;" text="2" />
-      <Button fx:id="DIVIDIR" layoutX="161.0" layoutY="76.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" style="-fx-background-color: #928686;" text="/" textFill="WHITE" />
-      <Button fx:id="A9" layoutX="161.0" layoutY="125.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" style="-fx-background-color: ffffff;" text="9" />
-      <Button fx:id="A6" layoutX="161.0" layoutY="173.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" style="-fx-background-color: ffffff;" text="6" />
-      <Button fx:id="A3" layoutX="161.0" layoutY="223.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" style="-fx-background-color: ffffff;" text="3" />
-      <Button fx:id="VEZES" layoutX="230.0" layoutY="77.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" style="-fx-background-color: #928686;" text="*" textFill="WHITE" />
-      <Button fx:id="MENOS" layoutX="230.0" layoutY="126.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" style="-fx-background-color: #928686;" text="-" textFill="WHITE" />
-      <Button fx:id="MAIS" layoutX="230.0" layoutY="174.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" style="-fx-background-color: #928686;" text="+" textFill="WHITE" />
-      <Button fx:id="IGUAL" layoutX="230.0" layoutY="224.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="56.0" style="-fx-background-color: #928686;" text="=" textFill="WHITE">
+      <Button fx:id="DELETA" layoutX="21.0" layoutY="75.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="125.0" styleClass="btncolor" text="C" textFill="WHITE" />
+      <Button fx:id="A7" layoutX="21.0" layoutY="124.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" styleClass="btncolor1" text="7" />
+      <Button fx:id="A4" layoutX="21.0" layoutY="172.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" styleClass="btncolor1" text="4" />
+      <Button fx:id="A1" layoutX="21.0" layoutY="222.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" styleClass="btncolor1" text="1" />
+      <Button fx:id="A8" layoutX="91.0" layoutY="124.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" styleClass="btncolor1" text="8" />
+      <Button fx:id="A5" layoutX="91.0" layoutY="172.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" styleClass="btncolor1" text="5" />
+      <Button fx:id="A2" layoutX="91.0" layoutY="222.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" styleClass="btncolor1" text="2" />
+      <Button fx:id="DIVIDIR" layoutX="161.0" layoutY="76.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" styleClass="btncolor" text="/" textFill="WHITE" />
+      <Button fx:id="A9" layoutX="161.0" layoutY="125.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" styleClass="btncolor1" text="9" />
+      <Button fx:id="A6" layoutX="161.0" layoutY="173.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" styleClass="btncolor1" text="6" />
+      <Button fx:id="A3" layoutX="161.0" layoutY="223.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" styleClass="btncolor1" text="3" />
+      <Button fx:id="VEZES" layoutX="230.0" layoutY="77.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" styleClass="btncolor" text="*" textFill="WHITE" />
+      <Button fx:id="MENOS" layoutX="230.0" layoutY="126.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" styleClass="btncolor" text="-" textFill="WHITE" />
+      <Button fx:id="MAIS" layoutX="230.0" layoutY="174.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" styleClass="btncolor" text="+" textFill="WHITE" />
+      <Button fx:id="IGUAL" layoutX="230.0" layoutY="224.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="56.0" styleClass="btncolor" text="=" textFill="WHITE">
          <effect>
             <Blend />
          </effect>
       </Button>
-      <Button fx:id="PONTO" layoutX="161.0" layoutY="273.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" style="-fx-background-color: ffffff;" text="." />
-      <Button fx:id="A0" layoutX="22.0" layoutY="273.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="125.0" style="-fx-background-color: ffffff;" text="0" />
+      <Button fx:id="PONTO" layoutX="161.0" layoutY="273.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="56.0" styleClass="btncolor1" text="." />
+      <Button fx:id="A0" layoutX="22.0" layoutY="273.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="125.0" styleClass="btncolor1" text="0" />
    </children>
 </Pane>
